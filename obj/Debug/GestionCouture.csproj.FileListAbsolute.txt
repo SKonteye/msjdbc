@@ -1,0 +1,17 @@
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\GestionCouture.exe.config
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\GestionCouture.exe
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\GestionCouture.pdb
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\EntityFramework.dll
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\EntityFramework.xml
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ngath\source\repos\GestionCouture\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.csproj.AssemblyReference.cache
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.csproj.SuggestedBindingRedirects.cache
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.Properties.Resources.resources
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.csproj.GenerateResource.cache
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.csproj.CoreCompileInputs.cache
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.csproj.CopyComplete
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.exe
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.pdb
+C:\Users\ngath\source\repos\GestionCouture\obj\Debug\GestionCouture.Form1.resources

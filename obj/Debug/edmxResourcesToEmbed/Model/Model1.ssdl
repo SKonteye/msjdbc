@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdCoutureDITIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="idPers" />
+    </Key>
+    <Property Name="idPers" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="genre" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Personne">
+    <Key>
+      <PropertyRef Name="idPers" />
+    </Key>
+    <Property Name="idPers" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomPers" Type="nchar" MaxLength="80" />
+    <Property Name="prenomPers" Type="nchar" MaxLength="80" />
+    <Property Name="adressePers" Type="nchar" MaxLength="150" />
+    <Property Name="telPers" Type="nchar" MaxLength="20" />
+    <Property Name="emailPers" Type="nchar" MaxLength="80" />
+  </EntityType>
+  <EntityContainer Name="bdCoutureDITIModelStoreContainer">
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personne" EntityType="Self.Personne" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

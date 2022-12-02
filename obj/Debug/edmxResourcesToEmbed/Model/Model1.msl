@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdCoutureDITIModelStoreContainer" CdmEntityContainer="bdCoutureDITIEntities">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="bdCoutureDITIModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="idPers" ColumnName="idPers" />
+          <ScalarProperty Name="genre" ColumnName="genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personne">
+      <EntityTypeMapping TypeName="bdCoutureDITIModel.Personne">
+        <MappingFragment StoreEntitySet="Personne">
+          <ScalarProperty Name="idPers" ColumnName="idPers" />
+          <ScalarProperty Name="nomPers" ColumnName="nomPers" />
+          <ScalarProperty Name="prenomPers" ColumnName="prenomPers" />
+          <ScalarProperty Name="adressePers" ColumnName="adressePers" />
+          <ScalarProperty Name="telPers" ColumnName="telPers" />
+          <ScalarProperty Name="emailPers" ColumnName="emailPers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
